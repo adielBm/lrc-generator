@@ -7,9 +7,8 @@ npm run build
 npm run start
 ```
 ## Example
-```md
 ![Example](example.jpg)
-```
+
 And this is the LRC file created.
 ```
 [ti:Darkness]
