@@ -2,7 +2,7 @@ A nice tool for creating [LRC files](https://en.wikipedia.org/wiki/LRC_%28file_f
 (LRC (short for LyRiCs) is a computer file format that synchronizes song lyrics with an audio file, such as MP3, Vorbis or MIDI. Wikipedia)
 
 ## Example
-![Example](example.jpg)
+![Screenshot](screenshot.jpg)
 
 And this is the LRC file created.
 ```
