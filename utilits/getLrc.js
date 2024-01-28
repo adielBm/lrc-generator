@@ -1,6 +1,6 @@
 const getLrc = (arr, title, artist, album, length) => {
   let lrc = '';
-  lrc += `[ti:${title}]\n[ar:${artist}]\n[al:${album}]\n[length:${length}]`
+  lrc += `[ti:${title}]\n[ar:${artist}]\n[al:${album}]\n[length:${length}]\n`
   arr.map(line => {
     lrc += `[${line.time}]${line.text}\n`;
   })

@@ -82,7 +82,10 @@ export default function Home() {
     <div>
       <Head>
         <title>LRC generator</title>
-        <meta name="description" content="A nice tool for creating LRC files. (synced lyrics)" />
+        <meta
+          name="description"
+          content="A nice tool for creating LRC files. (synced lyrics)"
+        />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
@@ -91,6 +94,7 @@ export default function Home() {
           crossOrigin="anonymous"
         ></link>
       </Head>
+
       <main>
         <LyricsContext.Provider value={value}>
           <Audiotime.Provider value={valueAudiotime}>
@@ -143,7 +147,12 @@ export default function Home() {
                 </button>
                 {/* github icon */}
 
-                <a href="https://github.com/adielBm/lrc-generator" target="_blank" rel="noreferrer" className="btn bg-slate-700 hover:bg-slate-900 text-gray-200 hover:text-gray-200 rounded-full">
+                <a
+                  href="https://github.com/adielBm/lrc-generator"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn bg-slate-700 hover:bg-slate-900 text-gray-200 hover:text-gray-200 rounded-full"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -192,9 +201,8 @@ export default function Home() {
                   <textarea
                     className="p-2 h-screen w-full outline-none rounded-lg"
                     ref={textareaEl}
-                  >
-                    First, insert lyrics here!
-                  </textarea>
+                    placeholder="Insert lyrics here"
+                  ></textarea>
                 </div>
                 <LinesTable />
               </div>
